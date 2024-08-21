@@ -17,7 +17,7 @@ const Navbar = () => {
             viewBox="0 0 95 25"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
-            class="w-20"
+            className="w-20"
             data-v-1932cced=""
           >
             <path
