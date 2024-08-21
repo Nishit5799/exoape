@@ -1,4 +1,4 @@
-'use client'
+"use client";
 import React from "react";
 import Navbar from "./Components/Navbar";
 import Landing from "./Components/Landing";
@@ -12,7 +12,7 @@ const page = () => {
   const locomotiveScroll = new LocomotiveScroll();
 
   return (
-    <div className=" w-full ">
+    <div className=" ">
       <Navbar />
       <Landing />
       <Work />

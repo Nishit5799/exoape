@@ -14,7 +14,7 @@ const PlayReel = () => {
         trigger: parent.current,
         start: "top top",
         scrub: 1,
-      
+
         pin: true,
       },
     });
@@ -31,7 +31,7 @@ const PlayReel = () => {
         textdivPlay.current,
         {
           x: "80%",
-          
+
           ease: Power4.easeOut,
         },
         "a"
@@ -40,7 +40,7 @@ const PlayReel = () => {
         textdivReel.current,
         {
           x: "-80%",
-        
+
           ease: Power4.easeOut,
         },
         "a"
