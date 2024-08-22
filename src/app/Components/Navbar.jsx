@@ -1,3 +1,4 @@
+"use client"
 import { motion } from "framer-motion";
 import { Power4 } from "gsap/all";
 import React from "react";

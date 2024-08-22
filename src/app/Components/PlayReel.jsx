@@ -1,3 +1,4 @@
+"use client"
 import gsap, { Power4, ScrollTrigger } from "gsap/all";
 import React, { useEffect, useRef } from "react";
 
