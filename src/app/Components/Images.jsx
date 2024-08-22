@@ -16,7 +16,6 @@ const Images = () => {
         trigger: parent.current,
         start: "0 90%",
         scrub: 1,
-       
       },
     });
     tl.to(
@@ -75,7 +74,7 @@ const Images = () => {
           className="absolute -left-1/2 sm:-left-3/4 top-1/3 w-[7rem] sm:w-[20rem] aspect-video overflow-hidden "
         >
           <video
-            src="https://a.storyblok.com/f/133769/x/9c433c7aac/home-news-diesel-be-a-follower.mp4"
+            src="./vid7.mp4"
             className="w-full h-full absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"
             autoPlay
             muted
@@ -99,7 +98,7 @@ const Images = () => {
           className="absolute w-[10rem] sm:w-[15rem] aspect-[1.5/1] -right-[75%] sm:-right-[50%] -bottom-[37%] sm:-bottom-[20%] "
         >
           <video
-            src="https://a.storyblok.com/f/133769/x/88b4bf7989/news-rino-pelle.mp4"
+            src="./vid6.mp4"
             className="w-full h-full absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"
             autoPlay
             muted

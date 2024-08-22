@@ -58,7 +58,7 @@ const PlayReel = () => {
           muted
           loop
           className="w-full h-full scale-[1.2] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"
-          src="https://player.vimeo.com/progressive_redirect/playback/914803778/rendition/1080p/file.mp4?loc=external&log_user=0&signature=5344c0e4fea63ca54bb433621ca0be7b9470b475583fa68b26de2b6e380a390a"
+          src="./vid1.mp4"
         ></video>
       </div>
       <div className="overlay w-full h-full bg-black text-white flex flex-col justify-between py-20">

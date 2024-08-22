@@ -8,29 +8,25 @@ function Work() {
     {
       heading: "Columbia Pictures",
       subheading: "Celebrating a century of cinema",
-      video:
-        "https://player.vimeo.com/progressive_redirect/playback/927016456/rendition/720p/file.mp4?loc=external&log_user=0&signature=270ce5ba6bf44a717c74cf85de5f3de1d33a36ba5205b660e5e23b873199d71a",
+      video: "./vid2.mp4",
       image: "/pic1.webp",
     },
     {
       heading: "Rino and Pelle",
       subheading: "Effortless chic lifestyle",
-      video:
-        "https://player.vimeo.com/progressive_redirect/playback/914798484/rendition/720p/file.mp4?loc=external&log_user=0&signature=666d8099e0f1361eb1766ec0592b63a9bdf2b303cdb12ddfa5789d20ce8f523b",
+      video: "./vid3.mp4",
       image: "/pic2.webp",
     },
     {
       heading: "Pixelflakes",
       subheading: "Architectural Marketing Agency",
-      video:
-        "https://player.vimeo.com/progressive_redirect/playback/914798271/rendition/720p/file.mp4?loc=external&log_user=0&signature=2af493277d050009920c26416a8d62a9a8c316353242c609ee157fcf1e300076",
+      video: "./vid4.mp4",
       image: "/pic3.webp",
     },
     {
       heading: "Aebele Interiors",
       subheading: "Luxurious design experience",
-      video:
-        "https://player.vimeo.com/progressive_redirect/playback/914796979/rendition/540p/file.mp4?loc=external&log_user=0&signature=57ac30ff6fc3b29802f7414617e808395306f0b0fa5c9c6e3ef483a532f49c15",
+      video: "./vid5.mp4",
       image: "/pic4.webp",
     },
   ]);
