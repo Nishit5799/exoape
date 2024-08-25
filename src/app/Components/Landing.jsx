@@ -9,8 +9,7 @@ const Landing = () => {
     <div className="w-full h-[130vh] sm:h-[250vh] relative">
       <div className="picture w-full h-full overflow-hidden">
         <Image
-          data-scroll
-          data-scroll-speed="-1"
+       
           className="w-full h-full object-cover"
           src="/bg.webp"
           width={1000}
