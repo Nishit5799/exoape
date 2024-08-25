@@ -1,15 +1,30 @@
-"use client";
+"use client"
+import React, { useState, useEffect } from "react";
 import { motion } from "framer-motion";
-
 import Image from "next/image";
-import React from "react";
-
 const Landing = () => {
+  const [isSmallScreen, setIsSmallScreen] = useState(false);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsSmallScreen(window.innerWidth < 640); // Tailwind's sm breakpoint is 640px
+    };
+
+    // Initial check
+    handleResize();
+
+    // Add event listener
+    window.addEventListener("resize", handleResize);
+
+    // Cleanup on unmount
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
   return (
     <div className="w-full h-[130vh] sm:h-[250vh] relative">
       <div className="picture w-full h-full overflow-hidden">
         <Image
-       
+          data-scroll={!isSmallScreen} // Apply data-scroll if not on a small screen
+          data-scroll-speed={isSmallScreen ? undefined : "-1"} // Set speed only if data-scroll is applied
           className="w-full h-full object-cover"
           src="/bg.webp"
           width={1000}
@@ -47,7 +62,7 @@ const Landing = () => {
                 </p>
               );
             })}
-          </div>  
+          </div>
           <div className="headings mt-5 sm:mt-10">
             {["Digital", "Design", "Experience"].map((item, index) => {
               return (
