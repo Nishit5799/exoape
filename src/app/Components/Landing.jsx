@@ -48,7 +48,7 @@ const Landing = () => {
                 </p>
               );
             })}
-          </div>
+          </div>  
           <div className="headings mt-5 sm:mt-10">
             {["Digital", "Design", "Experience"].map((item, index) => {
               return (
